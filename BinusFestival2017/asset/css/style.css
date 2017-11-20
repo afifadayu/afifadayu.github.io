@@ -33,19 +33,26 @@ body {
 #ourTeam {
   padding-top:300px;
   height:100vh;
-  color: #fff;
+  color: black;
   background-color: #673ab7;
   background: url("../img/ourteam.jpg") center center;
   background-size: cover;
+  text-align: center;
 }
 #ourTeam img {
   align: left;
-  height: 60vh;
   margin: 0vh; 
 }
-#ourTeam p {
-  text-align: left;
-  color: black;
+.circle {
+
+}
+.circle img {
+  border-radius: 50%;
+  height: 23vh;
+}
+.profile-picture {
+  width: 70%;
+  margin: auto;
 }
 
 
