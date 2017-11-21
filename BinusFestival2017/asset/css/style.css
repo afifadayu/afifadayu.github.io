@@ -46,15 +46,20 @@ body {
 .circle {
 
 }
+
+@media screen and (min-width: 200px) {
+  .profile-picture {
+    padding-top: -100px;
+  }
+  .circle img {
+    border-radius: 50%;
+    height: 10vh;
+  }
+}
 .circle img {
   border-radius: 50%;
-  height: 23vh;
+  height: 20vh;
 }
-.profile-picture {
-  width: 70%;
-  margin: auto;
-}
-
 
 
 #story {
@@ -104,7 +109,7 @@ body {
   object-fit: contain;
 }
 #photos{
-  width: 44%;
+  width: 60%;
   margin: auto;
 }
 .carousel-indicators {

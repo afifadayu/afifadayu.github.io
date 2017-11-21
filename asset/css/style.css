@@ -6,7 +6,7 @@ body {
     color: black;
 }
 #home {
-  padding-top:500px;
+  padding-top:50px;
   height:100vh;
   color: #fff;
   background-color: #1E88E5;
@@ -20,113 +20,72 @@ body {
 #mid {
   text-align: center;
   width: 50%;
-  margin: 0vh auto;
+  margin: 35vh auto;
   text-shadow: 0 0 4px black;
-  margin-bottom: 0px;
 }
 #mid h1 {
-  margin-bottom: 0px;
-}
+  margin-bottom: -35px;
+  font-weight: bold;
+ }
 
 
 
 #about {
-  padding-top:300px;
+  padding-top:0.2vh;
   height:100vh;
   color: #fff;
   background-color: #673ab7;
-  background: url("../img/ourteam.jpg") center center;
+  background: url("../img/about.jpg") center center;
   background-size: cover;
 }
 #aboutmid {
   text-align: center;
   margin: 20vh auto;
-  width: 60%;
+  width: 40%;
   text-shadow: 0 0 4px black;
 }
 #about img {
-  align: left;
-  height: 60vh;
-  margin: 0vh; 
+  height: 30vh;
+  border-radius: 50%;
+}
+#about h3 {
+  text-align: center; 
+  font-weight: bold;
 }
 #about p {
-  text-align: left;
-  color: black;
+  font-weight: bold;
+  font-size: 16px;
 }
-
-
-
-#story {
-  padding-top:300px;
-  height:100vh;
-  color: #fff;
-  background: url("../img/story.jpg") center center;
-  background-size: cover;
-}
-#str{
-  padding-bottom: 30px;
-}
-#storymid {
-  text-align: center;
-  margin:auto;
-  width: 60%;
-  height: 60vh;
-  overflow-y:auto;
-  text-shadow: 3 5 4px black;
-  text-decoration-color: black;
-}
-#strmid::-webkit-scrollbar { 
-  /* This is the magic bit */
-  display: none;
-}
-#story p {
-  color: black;
-  font-size: 18px;
-}
-
-
 
   
 .prev, .next {
   transition: 0.2s ease;
 }
 #gallery {
-  padding-top:300px;
+  padding-top:20vh;
   height:100vh;
   color: #fff;
-  background: url("../img/photo.jpg") center center;
+  background: url("../img/gallery.jpg") center center;
   background-size: cover;
+  text-shadow: 0 0 4px black;
+  text-align: center;
+  font-weight: bold;
 }
 #gallery img{   
   width: 100%; 
   height: 100%;
   object-fit: contain;
 }
-#gallery{
-  width: 44%;
+#gall{
+  width: 50%;
   margin: auto;
+}
+.carousel-caption{
+  text-shadow: 0 0 4px black;
 }
 .carousel-indicators {
   margin-bottom: 20px;
 }
 .carousel-caption{
   margin-bottom: 10px;
-}
-
-#contact {
-  padding-top:50px;
-  height:100vh;
-  color: #fff;
-  background-color: #3AB76E;
-}
-
-#midcon {
-  text-align: center;
-  width: 50%;
-  margin: 35vh auto;
-}
-
-#midcon a{
-  color: #FFF;
-  text-decoration: none;
 }
