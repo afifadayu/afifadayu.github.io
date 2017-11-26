@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .navbar-inverse {
   background-color: #020202;
 }
@@ -28,7 +33,9 @@ body {
   margin-bottom: 0px;
 }
 
-
+.name{
+  display: block;
+}
 
 #ourTeam {
   padding-top:300px;
@@ -44,21 +51,21 @@ body {
   margin: 0vh; 
 }
 .circle {
-
+  border-radius: 50%;
+  height: 20vw;
 }
 
-@media screen and (min-width: 200px) {
+@media screen and (min-width: 400px) {
   .profile-picture {
     padding-top: -100px;
   }
-  .circle img {
-    border-radius: 50%;
-    height: 10vh;
+  .container_name {
+    margin-top: -10px;
   }
-}
-.circle img {
-  border-radius: 50%;
-  height: 20vh;
+  .circle {
+    border-radius: 50%;
+    height: 10vw;
+  }
 }
 
 
@@ -109,7 +116,7 @@ body {
   object-fit: contain;
 }
 #photos{
-  width: 60%;
+  width: 60vw;
   margin: auto;
 }
 .carousel-indicators {
@@ -117,4 +124,5 @@ body {
 }
 .carousel-caption{
   margin-bottom: 10px;
+  font-size: 5vw;
 }
