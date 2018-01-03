@@ -1,73 +1,168 @@
-body {
-    position: relative;
+h1{
+    size: 500px ;
+    color: #1863e6;
+}
+h4{
+    color: #4582ec;
+}
+h5{
+    color: #272b2b;
+}
+.icon{
+    max-width: 105px; 
+    margin-left: 5px;
+    margin-top: 0px;
 }
 #home {
-  padding-top:50px;
-  height:100vh;
-  color: #fff;
-  background-color: #1E88E5;
-  background: url("../img/home.jpg") center center;
-  background-size: cover;
+    margin-top: 30px;
+    padding-bottom: 460px;
+    padding-top: 460px;
+    background-attachment: fixed;
+    background: url("../img/home.jpg") center center;
+    background-size: cover;
 }
-#mid {
-  text-align: center;
-  width: 50%;
-  margin: 35vh auto;
-  text-shadow: 0 0 4px black;
-}
-#mid h1 {
-  margin-bottom: -35px;
-}
-
-
-
 #about {
-  padding-top:50px;
-  height:100vh;
-  color: #fff;
-  background-color: #673ab7;
-  background: url("../img/about.jpg") center center;
-  background-size: cover;
+    margin-top: 0px;
+    height: 103vh;
+    background-color:#cacfd4;
+    background-size: cover;
 }
-#aboutmid {
-  text-align: center;
-  margin: 20vh auto;
-  width: 60%;
-  text-shadow: 0 0 4px black;
-}
-#about img {
-  height: 20vh;
-  border-radius: 50%;
-}
-#mid p {
-  text-align: left;
-  color: black;
-}
-
-
 #gallery {
-  padding-top:50px;
-  height:100vh;
-  color: #fff;
-  background-color: #673ab7;
-  background: url("../img/gallery.jpg") center center;
-  background-size: cover;
-  text-shadow: 0 0 4px black;
-  text-align: center;
+    margin-top: 0px;
+    height: 200vh;
+    background-color:#cacfd4;
+    background-size: cover;
 }
-#gallery img{   
-  width: 100%; 
-  height: 100%;
-  object-fit: contain;
+#contact {
+    margin-top: 0px;
+    height: 103vh;
+    background-color:#cacfd4;
+    background-size: cover;
 }
-#gall{
-  width: 60%;
-  margin: auto;
+.margin-fix{
+    margin-top: -10px;    
 }
-.carousel-indicators {
-  margin-bottom: -10px;
+.center-fix{
+    text-align: center;
 }
-.carousel-caption{
-  background: rgba(122, 130, 136, 0.2);
-  margin-bottom: -20px;
+.spacing-fix{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.margin-home {
+    text-align: right;
+    margin-right: 10vw;
+}
+.spacing-home-fix{
+    margin-top: -80px;
+}
+.margin-img-fix{
+    padding-top: 90px;
+}
+.margin-about-fix{
+    padding-top: 30px;
+}
+.contact-img{
+    width: 50px;
+    height: 50px;
+}
+.margin-contact-fix{
+    padding-top: 30px;
+}
+.margin-gallery-fix{
+    padding-top: 30px;
+}
+.spacing-img{
+    margin-bottom: 50px;
+}
+.img-gallery-fix{
+    filter: grayscale(100%);
+}
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* untuk komputer */
+@media screen and (min-width: 1000px) {
+    #home {
+        margin-top: 0px;
+        height: 102vh;
+        background: url("../img/home.jpg") center center;
+        background-size: cover;
+    }
+    #about {
+        margin-top: 0px;
+        height: 102vh;
+        background-color:#cacfd4;
+        background-size: cover;
+    }
+    #gallery {
+        margin-top: 0px;
+        height: 310vh;
+        background-color:#cacfd4;
+        background-size: cover;
+    }
+    #contact {
+        margin-top: 0px;
+        height: 102vh;
+        background-color:#cacfd4;
+        background-size: cover;
+    }
+    .margin-fix{
+        margin-top: 0px;
+    }
+    .spacing-img{
+        margin-bottom: 50px;
+    }
+    .spacing-fix{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    .margin-home {
+        text-align: right;
+        margin-right: 15vw;
+        margin-top: 30vh;
+    }
+    .spacing-home-fix{
+        margin-top: -50px;
+    }
+    .margin-img-fix{
+        padding-top: 40px;
+    }
+    .margin-about-fix{
+        padding-top: 50px;
+    }
+    .contact-img{
+        margin-top: -30px;
+        margin-bottom: 0px;
+        width: 100px;
+        height: 100px;
+    }
+    .margin-contact-fix{
+        padding-top: 80px;
+        padding-right: -40px;
+        padding-left: -40px;
+    }
+    .margin-gallery-fix{
+        padding-top: 80px;
+        padding-right: -40px;
+        padding-left: -40px;
+    }
+    .column {
+        -ms-flex: 25%; /* IE10 */
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+    }
 }
