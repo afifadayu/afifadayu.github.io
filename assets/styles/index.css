@@ -1,0 +1,97 @@
+@font-face {
+  font-family: 'Lato', sans-serif;
+  src: url(../font/Lato-Regular.ttf);
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+  background-color: #fdfdfd;
+  text-align: center;
+  margin: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+h1 {
+  color: #38c172;
+  font-weight: 500;
+}
+
+h3 {
+  font-weight: 280;
+}
+
+.container {
+  position: relative;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child2 {
+  margin-top: 30px;
+}
+
+.buttonStyle {
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #202020;
+  background-color: #fdfdfd;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 300;
+  box-shadow: 0px 12px 18px -8px rgba(56,193,114,0.5);
+  transition: all .2s ease-in-out;
+}
+
+.buttonStyle:hover{
+  color: #fdfdfd;
+  background-color: #38c172;
+  transform: scale(1.1)
+}
+
+.fa {
+  padding: 10px;
+  width: 15px;
+  text-align: center;
+  margin: 10px 2px;
+  transition: all .3s ease-in-out;
+}
+
+.fa:hover {
+  background-color: #fdfdfd;
+  color: #38c172;
+  transform: scale(1.1)
+}
+
+.fa-linkedin {
+  background: #38c172;
+  color: #fdfdfd;
+  border-radius: 5px;
+}
+
+.fa-instagram {
+  background: #38c172;
+  color: #fdfdfd;
+  border-radius: 5px;
+}
+
+.fa-github {
+  background: #38c172;
+  color: #fdfdfd;
+  border-radius: 5px;
+}
